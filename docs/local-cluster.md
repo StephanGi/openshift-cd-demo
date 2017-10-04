@@ -5,7 +5,7 @@ Download and install [Minishift](https://docs.openshift.org/latest/minishift/get
 Start up an OpenShift cluster:
 
 ```
-minishift start --memory=8192 --vm-driver=virtualbox
+minishift start --memory=10240 --vm-driver=virtualbox
 minishift addons enable xpaas
 oc login $(minishift ip):8443 -u developer
 ```
